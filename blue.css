@@ -1,0 +1,39 @@
+body {
+	background-color: navy;
+    color:navyblue;
+
+	}
+h1   {
+	color: blue;
+	  text-shadow: 2px 2px 4px #000000;
+	}
+p    {
+	color: black;
+	}
+#container {
+	width:80%;
+
+		  margin: 0 auto;
+}	
+#main {
+    text-align:left;
+	width:60%;
+	background-color:lightblue;
+	border-radius: 25px;
+	border: 2px solid red;
+    padding: 20px;
+	margin:15px;
+	float:left;
+
+    }
+#style {
+    text-align:center;
+	width:27%;
+	background-color:lightblue;
+	border-radius: 25px;
+	border: 2px solid red;
+    padding: 20px;
+	margin:15px ;
+    float:left;	
+height:400px;
+	}

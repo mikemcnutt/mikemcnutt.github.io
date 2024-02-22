@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(green, yellow);
+    height:100%;
+      background-repeat: no-repeat;
+	      background-attachment: fixed;
+    color:navyblue;
+	text-align:center;
+	}
+h1   {
+	color: orange;
+	  text-shadow: 2px 2px 4px #000000;
+	}
+p    {
+	color: black;
+	}
+		}
+		#container {
+	width:80%;
+    margin: 0 auto;
+}	
+#main {
+    text-align:left;
+	width:70%;
+	background-color:lightblue;
+	border-radius: 25px;
+	border: 2px solid red;
+    padding: 20px;
+	margin:15px auto 0 auto;
+    }
+#style {
+width:70%;
+ color:yellow;
+    background: url('images/green.jpg');
+    border-radius: 25px;
+ 	border: 2px solid red;
+    text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 15px red;
+    padding: 20px;
+	margin:15px auto 0 auto;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes bounce {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:200px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
